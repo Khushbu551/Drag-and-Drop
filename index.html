@@ -3,28 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Drag & Drop</title>
+    <title>Drag & Drop Fruits</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1>🍎 Drag only fruits to the right basket!</h1>
     <div class="container">
       <div id="left">
-        <div class="list" draggable="true">
-          <img src="pg.png" /> List Item 1
-        </div>
-        <div class="list" draggable="true">
-          <img src="pg.png" /> List Item 2
-        </div>
-        <div class="list" draggable="true">
-          <img src="pg.png" /> List Item 3
-        </div>
-        <div class="list" draggable="true">
-          <img src="pg.png" /> List Item 4
-        </div>
+        <div class="list" draggable="true"><img src="pg.png" /> Apple</div>
+        <div class="list" draggable="true"><img src="pg.png" /> Carrot</div>
+        <div class="list" draggable="true"><img src="pg.png" /> Banana</div>
+        <div class="list" draggable="true"><img src="pg.png" /> Potato</div>
+        <div class="list" draggable="true"><img src="pg.png" /> Mango</div>
+        <div class="list" draggable="true"><img src="pg.png" /> Orange</div>
+        <div class="list" draggable="true"><img src="pg.png" /> Grapes</div>
       </div>
-      <div id="right"></div>
+      <div id="right">
+        <p class="drop-text">Drop fruits here 🧺</p>
+      </div>
     </div>
 
+    <p id="message"></p>
+    <button id="playAgainBtn" style="display: none">🔁 Play Again</button>
     <script src="scrip.js"></script>
   </body>
 </html>
