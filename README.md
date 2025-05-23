@@ -18,7 +18,7 @@ This is a fun and interactive drag & drop game where the player must sort only *
 
 - HTML5
 - CSS3
-- JavaScript (no libraries or frameworks)
+- JavaScript
 
 ---
 
